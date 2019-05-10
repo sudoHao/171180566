@@ -1,0 +1,5 @@
+all:
+	gcc -o tcpclient01 tcpclient01.c
+	gcc -o tcpserver01 tcpserver01.c
+clean:
+	rm -f tcpclient01 tcpserver01
